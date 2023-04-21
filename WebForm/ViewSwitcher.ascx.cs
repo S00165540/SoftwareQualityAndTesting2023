@@ -6,7 +6,8 @@ using System.Web.Routing;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.AspNet.FriendlyUrls.Resolvers;
-
+using NWebsec.AspNetCore.Core.Web;
+using SQTA_2023;
 namespace WebForm
 {
     public partial class ViewSwitcher : System.Web.UI.UserControl
