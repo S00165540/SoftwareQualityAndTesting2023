@@ -1,4 +1,4 @@
-﻿using Assign_TestingS00165540;
+﻿using SQTA_2023;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assign_TestingS00165540
+namespace SQTA_2023
 {
 
     [TestFixture]
@@ -28,6 +28,7 @@ namespace Assign_TestingS00165540
             Assert.AreEqual(5.0, premium);
         }
 
+        //specification says 3.5 , code says premium 2.5?
         [Test]
         public void CalcPremium_Rural31Plus_Returns3point5()
         {
@@ -40,7 +41,7 @@ namespace Assign_TestingS00165540
             double premium = insuranceService.CalcPremium(35, "rural");
 
             // Assert
-            Assert.AreEqual(2.5, premium);
+            Assert.AreEqual(3.5, premium);
         }
 
         [Test]

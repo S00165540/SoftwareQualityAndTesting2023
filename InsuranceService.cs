@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Moq;
+using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading.Tasks;
 
-namespace Assign_TestingS00165540
+namespace SQTA_2023
 {
     //Dependency injecttion with Interface and Mocking 
     public interface IDiscountService
@@ -31,7 +33,7 @@ namespace Assign_TestingS00165540
                     premium = 5.0;
                 else
                 if (age >= 31)
-                    premium = 2.50;
+                    premium = 3.50;
                 else
                     premium = 0.0;
             else
