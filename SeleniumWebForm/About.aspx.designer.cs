@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebForm
+namespace SeleniumWebForm
 {
 
 
-    public partial class Contact
+    public partial class About
     {
     }
 }

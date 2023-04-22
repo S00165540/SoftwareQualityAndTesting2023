@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.FriendlyUrls.Core" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0-preview-20230223-05" />
     <PackageReference Include="Moq" Version="4.18.4" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
@@ -16,6 +17,11 @@
     <PackageReference Include="NWebsec.AspNetCore.Core" Version="3.0.1" />
     <PackageReference Include="Selenium.Support" Version="4.9.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="SeleniumWebForm.Tests\SeleniumWebForm.Tests.csproj" />
+    <ProjectReference Include="SeleniumWebForm\SeleniumWebForm.csproj" />
   </ItemGroup>
 
 </Project>

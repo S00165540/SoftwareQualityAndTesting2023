@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WebForm")]
+[assembly: AssemblyTitle("SeleniumWebForm")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WebForm")]
+[assembly: AssemblyProduct("SeleniumWebForm")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4519b8ce-e97b-4a94-b67c-5ce32df2f704")]
+[assembly: Guid("2031bd89-727d-44ad-b4aa-314b1866c861")]
 
 // Version information for an assembly consists of the following four values:
 //

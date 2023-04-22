@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace WebForm
+namespace SeleniumWebForm
 {
     public class BundleConfig
     {

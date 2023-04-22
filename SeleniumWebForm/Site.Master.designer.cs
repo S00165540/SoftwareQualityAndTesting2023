@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebForm
+namespace SeleniumWebForm
 {
 
 
