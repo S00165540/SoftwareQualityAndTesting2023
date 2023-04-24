@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQTA_2023", "SQTA_2023.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebForm", "SeleniumWebForm\SeleniumWebForm.csproj", "{2031BD89-727D-44AD-B4AA-314B1866C861}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumWebForm.Tests", "SeleniumWebForm.Tests\SeleniumWebForm.Tests.csproj", "{27920A02-6216-42F8-B93A-1138ACE12652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "..\TestProject\TestProject.csproj", "{56D0BD0A-BDC3-4BDE-A15A-8BEDF9B0D5B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{2031BD89-727D-44AD-B4AA-314B1866C861}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2031BD89-727D-44AD-B4AA-314B1866C861}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2031BD89-727D-44AD-B4AA-314B1866C861}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27920A02-6216-42F8-B93A-1138ACE12652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27920A02-6216-42F8-B93A-1138ACE12652}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27920A02-6216-42F8-B93A-1138ACE12652}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27920A02-6216-42F8-B93A-1138ACE12652}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D0BD0A-BDC3-4BDE-A15A-8BEDF9B0D5B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D0BD0A-BDC3-4BDE-A15A-8BEDF9B0D5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D0BD0A-BDC3-4BDE-A15A-8BEDF9B0D5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D0BD0A-BDC3-4BDE-A15A-8BEDF9B0D5B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

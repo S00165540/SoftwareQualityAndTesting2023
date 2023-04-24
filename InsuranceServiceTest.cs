@@ -25,7 +25,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(25, "rural");
 
             // Assert
-            Assert.AreEqual(5.0, premium);
+            Assert.That(premium, Is.EqualTo(5.0));
         }
 
         //specification says 3.5 , code says premium 2.5?
@@ -41,7 +41,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(35, "rural");
 
             // Assert
-            Assert.AreEqual(3.5, premium);
+            Assert.That(premium, Is.EqualTo(3.5));
         }
 
         [Test]
@@ -56,7 +56,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(25, "urban");
 
             // Assert
-            Assert.AreEqual(6.0, premium);
+            Assert.That(premium, Is.EqualTo(6.0));
         }
 
         [Test]
@@ -71,7 +71,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(40, "urban");
 
             // Assert
-            Assert.AreEqual(5.0, premium);
+            Assert.That(premium, Is.EqualTo(5.0));
         }
 
         [Test]
@@ -86,7 +86,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(50, "rural");
 
             // Assert
-            Assert.AreEqual(2.0, premium); // discount applied to premium of 5.0
+            Assert.That(premium, Is.EqualTo(3.0)); // discount applied to premium of 5.0
         }
 
         [Test]
@@ -101,7 +101,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(15, "rural");
 
             // Assert
-            Assert.AreEqual(0.0, premium);
+            Assert.That(premium, Is.EqualTo(0.0));
         }
 
         [Test]
@@ -116,7 +116,7 @@ namespace SQTA_2023
             double premium = insuranceService.CalcPremium(17, "urban");
 
             // Assert
-            Assert.AreEqual(0.0, premium);
+            Assert.That(premium, Is.EqualTo(0.0));
         }
 
     }

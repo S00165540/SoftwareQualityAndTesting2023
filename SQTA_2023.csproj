@@ -7,20 +7,37 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="5.1.1" />
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
     <PackageReference Include="Microsoft.AspNet.FriendlyUrls.Core" Version="1.0.2" />
     <PackageReference Include="Microsoft.AspNet.Web.Optimization" Version="1.1.3" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0-preview-20230223-05" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="17.5.0" />
+    <PackageReference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform" Version="2.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="Microsoft.NETCore.Platforms" Version="8.0.0-preview.3.23174.8" />
+    <PackageReference Include="Microsoft.Web.Infrastructure" Version="2.0.1" />
+    <PackageReference Include="Modernizr" Version="2.8.3" />
     <PackageReference Include="Moq" Version="4.18.4" />
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
     <PackageReference Include="NUnit" Version="3.13.3" />
-    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0-alpha.4" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NUnit.Console" Version="3.16.3" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.16.3" />
+    <PackageReference Include="NUnit.Extension.NUnitV2Driver" Version="3.8.0" />
+    <PackageReference Include="NUnit.Extension.TeamCityEventListener" Version="1.0.7" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
     <PackageReference Include="NWebsec.AspNetCore.Core" Version="3.0.1" />
     <PackageReference Include="Selenium.Support" Version="4.9.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.9.0" />
+    <PackageReference Include="Selenium.WebDriverBackedSelenium" Version="4.1.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="4.5.3" />
+    <PackageReference Include="System.Threading.Tasks.Extensions" Version="4.5.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="SeleniumWebForm.Tests\SeleniumWebForm.Tests.csproj" />
     <ProjectReference Include="SeleniumWebForm\SeleniumWebForm.csproj" />
   </ItemGroup>
 

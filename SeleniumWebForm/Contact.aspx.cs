@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+﻿//using Microsoft.AspNetCore.Mvc.RazorPages;
+//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Web;
+//using System.Web.UI;
 
-namespace SeleniumWebForm
-{
-    public partial class Contact : Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
 
-        }
-    }
-}
+//namespace SeleniumWebForm
+//{
+//    public partial class Contact : Page
+//    {
+//        protected void Page_Load(object sender, EventArgs e)
+//        {
+
+//        }
+//    }
+//}
