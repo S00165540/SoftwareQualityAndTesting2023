@@ -4,6 +4,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 
@@ -20,7 +21,7 @@ namespace UnitTest1
         [SetUp]
         public void SetupTest()
         {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
             baseURL = "https://www.google.com/";
             verificationErrors = new StringBuilder();
         }
@@ -42,7 +43,7 @@ namespace UnitTest1
         [Test]
         public void TheUntitledTestCaseTest()
         {
-            driver.Navigate().GoToUrl("http://localhost:44389/");
+            driver.Navigate().GoToUrl("https://localhost:4200/");
             driver.FindElement(By.Id("MainContent_TextBox1")).Click();
             driver.FindElement(By.Id("MainContent_TextBox1")).Click();
             driver.FindElement(By.Id("MainContent_TextBox1")).Clear();
